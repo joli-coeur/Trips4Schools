@@ -1,0 +1,79 @@
+#container {
+ display: grid;
+ grid-template-columns: 4fr;
+ grid-template-rows: 4fr ;
+}
+
+#bovenbalk {
+ grid-column-start: 1;
+ grid-column-end: 4;
+ background-color: #FF7B00;
+ height: 100px ;
+}
+
+#onderbalk{
+  grid-column-start: 4;
+  grid-column-end: 1;
+  background-color: #FF9900;
+  height: 250px ;
+}
+#menu{
+ grid-column-start: 1;
+ grid-column-end: span 3;
+ background-color: #FF0000;
+ display: inline;
+}
+
+.box {
+ min-height: 700px;
+}
+ 
+#centrum {
+ background-color:rgb(255, 217, 0);
+ border: 10px outset aqua;
+}
+ 
+body{
+ background-color: brown;
+}
+
+button{
+  background-color:lime;
+}
+
+a{
+  color: white;
+}
+
+h1{
+  text-align: center;
+}
+#af{
+  text-align: center;
+  color: green;
+}
+
+#logo{
+  position: absolute;
+  top: 300px;
+  right: 555px;
+  padding: 50px;
+  width: 20%;
+  height: 200px;
+}
+
+
+#oa{
+  background-color:  purple;
+  position: absolute;
+  right: -475px;
+}
+.menu {
+  top: 108px;
+  position: absolute;
+  right: 660px;
+
+}
+
+
+

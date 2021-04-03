@@ -1,0 +1,114 @@
+#container {
+ display: grid;
+ grid-template-columns: 4fr;
+ grid-template-rows: 4fr ;
+}
+
+#bovenbalk {
+ grid-column-start: 1;
+ grid-column-end: 4;
+ background-color: #FF7B00;
+ height: 100px ;
+}
+
+#onderbalk{
+  grid-column-start: 4;
+  grid-column-end: 1;
+  background-color: #FF9900;
+  height: 250px ;
+}
+#menu{
+ grid-column-start: 1;
+ grid-column-end: span 3;
+ background-color: #FF0000;
+ display: inline;
+ 
+}
+
+.box {
+ min-height: 700px;
+}
+ 
+#centrum {
+ background-color:rgb(255, 217, 0);
+ border: 10px outset aqua;
+}
+ 
+body{
+ background-color: brown;
+}
+
+button{
+  background-color:lime;
+}
+
+a{
+  color: white;
+}
+
+h1{
+  text-align: center;
+}
+#tekst1{
+  text-align: center;
+  position: relative;
+  top: 200px;
+}
+
+#tekst2{
+  text-align: center;
+  position: relative;
+  top: 380px;
+}
+
+#tekst3{
+  text-align: center;
+  position: relative;
+  top: 550px;
+}
+
+
+#img1{
+  border: 3px outset black;
+  background-color: white;
+  position: absolute;
+  left: 570px;
+  top: 180px;
+  padding: 10px;
+  width: 25%;
+  height: 150px;
+}
+
+#img2{
+  border: 3px outset black;
+  background-color: white;
+  position: absolute;
+  left: 570px;
+  top: 400px;
+  padding: 10px;
+  width: 25%;
+  height: 150px;
+}
+
+#img3{
+  border: 3px outset black;
+  background-color: white;
+  position: absolute;
+  top: 620px;
+  left: 570px;
+  padding: 10px;
+  width: 25%;
+  height: 150px;
+}
+
+#oa{
+  background-color:  purple;
+  position: absolute;
+  right: -475px;
+}
+.menu {
+  top: 108px;
+  position: absolute;
+  right: 660px;
+
+}
